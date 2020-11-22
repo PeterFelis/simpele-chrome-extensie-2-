@@ -1,0 +1,27 @@
+{
+  "name": "Bg kleur veranderen ",
+  "version": "1.0",
+  "description": "Druk op knop en pas achtergrondkleur aan",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon/gs16.png",
+    "32": "icon/gs32.png",
+    "48": "icon/gs48.png",
+    "128": "icon/gs128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["storage","activeTab"],
+  "browser_action": {
+    "default_icon": {
+      "16": "icon/shuttle16.png",
+      "32": "icon/shuttle32.png"
+    },
+    "default_title": "2e stap chrome extension",
+    "default_popup": "popup.html"
+     }
+  }
+    
+    
